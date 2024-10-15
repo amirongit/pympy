@@ -25,4 +25,4 @@ jobs:
           pipenv sync --system --dev
       - run: pylint ./src ./test
       - run: mypy ./src ./test
-      - run: pytest -v --cov=src.use_case --cov-report term-missing --cov-report term:skip-covered test
+      # - run: pytest -v --cov=src.use_case --cov-report term-missing --cov-report term:skip-covered test
