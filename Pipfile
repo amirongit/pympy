@@ -13,6 +13,7 @@ pytest-cov = "*"
 mypy = "*"
 pylint = "*"
 isort = "*"
+black = "*"
 
 [requires]
 python_version = "3.12"
